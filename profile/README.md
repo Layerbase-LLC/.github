@@ -34,6 +34,12 @@ Local CLI, desktop app, and serverless cloud. Native binaries. Zero Docker.
 [![Engines](https://img.shields.io/badge/engines-21-3FBFB0)](https://layerbase.com)
 [![Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)](https://github.com/robertjbass/spindb#supported-engines--platforms)
 
+<br>
+
+<a href="https://layerbase.com/branching">
+  <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/media/banner-branchable.png" alt="Layerbase — instant branchable databases: relational, document, key-value, vector, and time-series engines with git-style branching" width="840">
+</a>
+
 </div>
 
 ---
@@ -66,6 +72,27 @@ Databases shouldn't make you wait — not for Docker to pull an image, not for a
     </td>
   </tr>
 </table>
+
+## 🖥️ Seventeen databases, one window
+
+PostgreSQL 17 next to PostgreSQL 18, MySQL next to MariaDB, FerretDB 1.x next to 2.x — every container with its own version, port, and one-click start. This is Layerbase Desktop:
+
+<div align="center">
+  <a href="https://layerbase.com/desktop/download">
+    <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/media/desktop-databases.png" alt="Layerbase Desktop managing 17 database containers across PostgreSQL, MySQL, MariaDB, MongoDB, FerretDB, Valkey, Meilisearch, CouchDB, CockroachDB, SurrealDB, and TypeDB" width="840">
+  </a>
+  <br><sub><b><a href="https://layerbase.com/desktop/download">Download Layerbase Desktop ⬇</a></b> — free for macOS, Windows, and Linux</sub>
+</div>
+
+<details>
+<summary><b>See the query console</b> — a full SQL editor with results grid, per-table browsing, and live connection strings</summary>
+<br>
+<div align="center">
+  <a href="https://layerbase.com/query-console">
+    <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/media/desktop-query.png" alt="Layerbase Desktop query console running SQL against a local PostgreSQL 18 database" width="840">
+  </a>
+</div>
+</details>
 
 ## ⚡ Zero to every database
 
@@ -308,6 +335,10 @@ The Layerbase platform is built in the open. These are the pieces you can read, 
 | [**layerbase-app-starter**](https://github.com/Layerbase-LLC/layerbase-app-starter) | The Layerbase hosted-app contract as two runnable examples (Node + Vite, Next.js) — fork one and grow it into a real hosted app. |
 | [**layerbase-deno-mtls**](https://github.com/Layerbase-LLC/layerbase-deno-mtls) | Direct-TLS Postgres client for Deno with client-certificate (mTLS) support and connection pooling. |
 
+<div align="center">
+  <sub>If any of these save you time, a ⭐ on the repo helps more people find them.</sub>
+</div>
+
 ## 🧭 Where to next?
 
 <div align="center">
@@ -329,6 +360,17 @@ The Layerbase platform is built in the open. These are the pieces you can read, 
   <a href="https://layerbase.com/security">Security</a> ·
   <a href="https://layerbase.com/support">Support</a> ·
   <a href="https://layerbase.com/status">Status</a>
+</sub>
+
+<sub>
+  <a href="https://layerbase.com/branching">Branching</a> ·
+  <a href="https://layerbase.com/migrate">Migrate</a> ·
+  <a href="https://layerbase.com/stacks">Stacks</a> ·
+  <a href="https://layerbase.com/query-console">Query Console</a> ·
+  <a href="https://layerbase.com/ci">CI</a> ·
+  <a href="https://layerbase.com/apps">Apps</a> ·
+  <a href="https://layerbase.com/agents">Agents</a> ·
+  <a href="https://layerbase.com/dedicated">Dedicated</a>
 </sub>
 
 <sub>
