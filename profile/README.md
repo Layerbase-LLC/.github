@@ -15,7 +15,7 @@ Local CLI, desktop app, and serverless cloud. Native binaries. Zero Docker.
 <br>
 
 <a href="https://layerbase.com"><b>Website</b></a> ·
-<a href="https://layerbase.com/desktop"><b>Desktop</b></a> ·
+<a href="https://layerbase.com/desktop/download"><b>Download Desktop</b></a> ·
 <a href="https://layerbase.com/pricing"><b>Cloud</b></a> ·
 <a href="https://layerbase.com/docs"><b>Docs</b></a> ·
 <a href="https://layerbase.com/blog"><b>Blog</b></a> ·
@@ -57,7 +57,7 @@ Databases shouldn't make you wait — not for Docker to pull an image, not for a
     <td valign="top">
       A cross-platform database IDE for macOS, Windows, and Linux. Visual management, query console, and one-click local instances.
       <br><br>
-      <a href="https://layerbase.com/desktop">Download</a>
+      <a href="https://layerbase.com/desktop/download"><b>Download ⬇</b></a> · <a href="https://layerbase.com/desktop">Learn more</a>
     </td>
     <td valign="top">
       Serverless database instances that spin up in seconds — with branching, stacks, secrets, and hosted apps like Grafana on top.
@@ -319,10 +319,10 @@ The Layerbase platform is built in the open. These are the pieces you can read, 
   </picture>
 </a>
 
-**[Create a database in your browser](https://layerbase.com)** — or `npm install -g layerbase` and never leave your terminal.
+**[Create a database in your browser](https://layerbase.com)**, **[download the desktop app](https://layerbase.com/desktop/download)** — or `npm install -g layerbase` and never leave your terminal.
 
 <sub>
-  <a href="https://layerbase.com/desktop">Desktop</a> ·
+  <a href="https://layerbase.com/desktop/download">Download Desktop</a> ·
   <a href="https://layerbase.com/pricing">Pricing</a> ·
   <a href="https://layerbase.com/docs">Docs</a> ·
   <a href="https://layerbase.com/blog">Blog</a> ·
