@@ -19,12 +19,18 @@ Local CLI, desktop app, and serverless cloud. Native binaries. Zero Docker.
 <a href="https://layerbase.com/pricing"><b>Cloud</b></a> ·
 <a href="https://layerbase.com/docs"><b>Docs</b></a> ·
 <a href="https://layerbase.com/blog"><b>Blog</b></a> ·
-<a href="https://github.com/robertjbass/spindb"><b>SpinDB CLI</b></a>
+<a href="https://github.com/Layerbase-LLC/layerbase-cli"><b>CLI</b></a>
+
+<sub>
+  <a href="https://x.com/LayerbaseDB">𝕏 @LayerbaseDB</a> ·
+  <a href="https://youtube.com/@layerbasedb">▶ YouTube</a> ·
+  <a href="https://www.linkedin.com/company/layerbasellc">in LinkedIn</a>
+</sub>
 
 <br><br>
 
-[![npm version](https://img.shields.io/npm/v/spindb.svg?label=spindb&color=3FBFB0)](https://www.npmjs.com/package/spindb)
-[![npm downloads](https://img.shields.io/npm/dm/spindb.svg?color=3FBFB0)](https://www.npmjs.com/package/spindb)
+[![npm version](https://img.shields.io/npm/v/layerbase.svg?label=layerbase&color=3FBFB0)](https://www.npmjs.com/package/layerbase)
+[![npm downloads](https://img.shields.io/npm/dm/layerbase.svg?color=3FBFB0)](https://www.npmjs.com/package/layerbase)
 [![Engines](https://img.shields.io/badge/engines-21-3FBFB0)](https://layerbase.com)
 [![Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)](https://github.com/robertjbass/spindb#supported-engines--platforms)
 
@@ -38,15 +44,15 @@ Databases shouldn't make you wait — not for Docker to pull an image, not for a
 
 <table>
   <tr>
-    <th align="left" width="33%">🧰 SpinDB CLI</th>
+    <th align="left" width="33%">🧰 Layerbase CLI</th>
     <th align="left" width="33%">🖥️ Layerbase Desktop</th>
     <th align="left" width="33%">☁️ Layerbase Cloud</th>
   </tr>
   <tr>
     <td valign="top">
-      A package manager for databases. Create, start, clone, and manage 21 engines from one command line — no Docker, no VMs, no installers.
+      One CLI for local and cloud. A package manager for 21 engines on your machine — no Docker, no VMs, no installers — plus secure, no-connection-string access to your managed databases.
       <br><br>
-      <a href="https://github.com/robertjbass/spindb">GitHub</a> · <a href="https://www.npmjs.com/package/spindb">npm</a>
+      <a href="https://github.com/Layerbase-LLC/layerbase-cli">GitHub</a> · <a href="https://www.npmjs.com/package/layerbase">npm</a>
     </td>
     <td valign="top">
       A cross-platform database IDE for macOS, Windows, and Linux. Visual management, query console, and one-click local instances.
@@ -64,14 +70,18 @@ Databases shouldn't make you wait — not for Docker to pull an image, not for a
 ## ⚡ Zero to every database
 
 ```bash
-npm install -g spindb
+npm install -g layerbase
 
-spindb create api        --engine postgresql   # your app's database
-spindb create cache      --engine redis        # your cache
-spindb create analytics  --engine clickhouse   # your OLAP warehouse
-spindb create search     --engine meilisearch  # your search index
+lbase create api        --engine postgresql   # your app's database
+lbase create cache      --engine redis        # your cache
+lbase create analytics  --engine clickhouse   # your OLAP warehouse
+lbase create search     --engine meilisearch  # your search index
 
-# All native. All local. All managed the same way.
+lbase login                                   # link your Layerbase Cloud account
+lbase cloud ls                                # list your managed databases
+lbase psql api                                # connect — no connection strings, ever
+
+# All native. Local or cloud. All managed the same way.
 ```
 
 ## 🗄️ 21 engines · 5 platforms · one API
@@ -293,7 +303,7 @@ The Layerbase platform is built in the open. These are the pieces you can read, 
 | [**spindb**](https://github.com/robertjbass/spindb) | One CLI for all your local databases — a package manager, unified API, and native client tooling for 21 engines. Replaces Docker, DBngin, and Postgres.app for local development. |
 | [**hostdb**](https://github.com/robertjbass/hostdb) | Prebuilt, platform-specific database binaries as npm packages. The distribution layer that makes `spindb create` instant. |
 | [**pgsqlite**](https://github.com/Layerbase-LLC/pgsqlite) | A PostgreSQL wire-protocol adapter for SQLite — point any Postgres client at a SQLite file. |
-| [**layerbase-cli**](https://github.com/Layerbase-LLC/layerbase-cli) | Securely connect to your managed Layerbase databases without ever exposing the connection string. |
+| [**layerbase-cli**](https://github.com/Layerbase-LLC/layerbase-cli) | The Layerbase CLI (`layerbase` / `lbase`) — a local-first drop-in for spindb plus a cloud layer: connect to your managed databases without ever exposing a connection string. |
 | [**secrets-js**](https://github.com/Layerbase-LLC/secrets-js) | TypeScript SDK for the Layerbase secret store — fetch and decrypt project/environment secrets. Published as `@layerbase/secrets`. |
 | [**layerbase-app-starter**](https://github.com/Layerbase-LLC/layerbase-app-starter) | The Layerbase hosted-app contract as two runnable examples (Node + Vite, Next.js) — fork one and grow it into a real hosted app. |
 | [**layerbase-deno-mtls**](https://github.com/Layerbase-LLC/layerbase-deno-mtls) | Direct-TLS Postgres client for Deno with client-certificate (mTLS) support and connection pooling. |
@@ -309,7 +319,7 @@ The Layerbase platform is built in the open. These are the pieces you can read, 
   </picture>
 </a>
 
-**[Create a database in your browser](https://layerbase.com)** — or `npm install -g spindb` and never leave your terminal.
+**[Create a database in your browser](https://layerbase.com)** — or `npm install -g layerbase` and never leave your terminal.
 
 <sub>
   <a href="https://layerbase.com/desktop">Desktop</a> ·
@@ -319,6 +329,12 @@ The Layerbase platform is built in the open. These are the pieces you can read, 
   <a href="https://layerbase.com/security">Security</a> ·
   <a href="https://layerbase.com/support">Support</a> ·
   <a href="https://layerbase.com/status">Status</a>
+</sub>
+
+<sub>
+  <a href="https://x.com/LayerbaseDB">𝕏 @LayerbaseDB</a> ·
+  <a href="https://youtube.com/@layerbasedb">▶ YouTube</a> ·
+  <a href="https://www.linkedin.com/company/layerbasellc">in LinkedIn</a>
 </sub>
 
 </div>
