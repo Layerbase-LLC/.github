@@ -96,6 +96,12 @@ PostgreSQL 17 next to PostgreSQL 18, MySQL next to MariaDB, FerretDB 1.x next to
 
 ## ⚡ Zero to every database
 
+<div align="center">
+  <a href="https://www.npmjs.com/package/layerbase">
+    <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/media/cli-demo.gif" alt="lbase create spins up a PostgreSQL 18 database in seconds, then connects with psql and runs a query — no Docker, no config" width="840">
+  </a>
+</div>
+
 ```bash
 npm install -g layerbase
 
