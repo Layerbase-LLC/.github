@@ -1,0 +1,324 @@
+<div align="center">
+
+<a href="https://layerbase.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/brand/logo-dark.svg">
+    <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/brand/logo-light.svg" alt="Layerbase" width="340">
+  </picture>
+</a>
+
+<h3>Every database. In seconds.</h3>
+
+**One toolchain for PostgreSQL, MySQL, MongoDB, Redis, ClickHouse — and 16 more.**<br>
+Local CLI, desktop app, and serverless cloud. Native binaries. Zero Docker.
+
+<br>
+
+<a href="https://layerbase.com"><b>Website</b></a> ·
+<a href="https://layerbase.com/desktop"><b>Desktop</b></a> ·
+<a href="https://layerbase.com/pricing"><b>Cloud</b></a> ·
+<a href="https://layerbase.com/docs"><b>Docs</b></a> ·
+<a href="https://layerbase.com/blog"><b>Blog</b></a> ·
+<a href="https://github.com/robertjbass/spindb"><b>SpinDB CLI</b></a>
+
+<br><br>
+
+[![npm version](https://img.shields.io/npm/v/spindb.svg?label=spindb&color=3FBFB0)](https://www.npmjs.com/package/spindb)
+[![npm downloads](https://img.shields.io/npm/dm/spindb.svg?color=3FBFB0)](https://www.npmjs.com/package/spindb)
+[![Engines](https://img.shields.io/badge/engines-21-3FBFB0)](https://layerbase.com)
+[![Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)](https://github.com/robertjbass/spindb#supported-engines--platforms)
+
+</div>
+
+---
+
+## 🦎 The chameleon of databases
+
+Databases shouldn't make you wait — not for Docker to pull an image, not for a cloud console to provision, not for Homebrew to resolve dependencies. Layerbase adapts to whatever engine your project needs and gets out of the way.
+
+<table>
+  <tr>
+    <th align="left" width="33%">🧰 SpinDB CLI</th>
+    <th align="left" width="33%">🖥️ Layerbase Desktop</th>
+    <th align="left" width="33%">☁️ Layerbase Cloud</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      A package manager for databases. Create, start, clone, and manage 21 engines from one command line — no Docker, no VMs, no installers.
+      <br><br>
+      <a href="https://github.com/robertjbass/spindb">GitHub</a> · <a href="https://www.npmjs.com/package/spindb">npm</a>
+    </td>
+    <td valign="top">
+      A cross-platform database IDE for macOS, Windows, and Linux. Visual management, query console, and one-click local instances.
+      <br><br>
+      <a href="https://layerbase.com/desktop">Download</a>
+    </td>
+    <td valign="top">
+      Serverless database instances that spin up in seconds — with branching, stacks, secrets, and hosted apps like Grafana on top.
+      <br><br>
+      <a href="https://layerbase.com/pricing">Pricing</a> · <a href="https://layerbase.com/branching">Branching</a>
+    </td>
+  </tr>
+</table>
+
+## ⚡ Zero to every database
+
+```bash
+npm install -g spindb
+
+spindb create api        --engine postgresql   # your app's database
+spindb create cache      --engine redis        # your cache
+spindb create analytics  --engine clickhouse   # your OLAP warehouse
+spindb create search     --engine meilisearch  # your search index
+
+# All native. All local. All managed the same way.
+```
+
+## 🗄️ 21 engines · 5 platforms · one API
+
+Relational, document, key-value, columnar, vector, time-series, graph, ledger — every logo below is a first-class citizen, not a plugin.
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/postgresql">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/postgresql-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/postgresql-light.svg" width="44" height="44" alt="PostgreSQL">
+        </picture>
+        <br><sub><b>PostgreSQL</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/mysql">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/mysql-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/mysql-light.svg" width="44" height="44" alt="MySQL">
+        </picture>
+        <br><sub><b>MySQL</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/mariadb">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/mariadb-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/mariadb-light.svg" width="44" height="44" alt="MariaDB">
+        </picture>
+        <br><sub><b>MariaDB</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/sqlite">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/sqlite-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/sqlite-light.svg" width="44" height="44" alt="SQLite">
+        </picture>
+        <br><sub><b>SQLite</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/libsql">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/libsql-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/libsql-light.svg" width="44" height="44" alt="LibSQL">
+        </picture>
+        <br><sub><b>LibSQL</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/cockroachdb">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/cockroachdb-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/cockroachdb-light.svg" width="44" height="44" alt="CockroachDB">
+        </picture>
+        <br><sub><b>CockroachDB</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/duckdb">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/duckdb-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/duckdb-light.svg" width="44" height="44" alt="DuckDB">
+        </picture>
+        <br><sub><b>DuckDB</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/mongodb">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/mongodb-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/mongodb-light.svg" width="44" height="44" alt="MongoDB">
+        </picture>
+        <br><sub><b>MongoDB</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/ferretdb">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/ferretdb-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/ferretdb-light.svg" width="44" height="44" alt="FerretDB">
+        </picture>
+        <br><sub><b>FerretDB</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/couchdb">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/couchdb-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/couchdb-light.svg" width="44" height="44" alt="CouchDB">
+        </picture>
+        <br><sub><b>CouchDB</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/redis">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/redis-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/redis-light.svg" width="44" height="44" alt="Redis">
+        </picture>
+        <br><sub><b>Redis</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/valkey">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/valkey-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/valkey-light.svg" width="44" height="44" alt="Valkey">
+        </picture>
+        <br><sub><b>Valkey</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/clickhouse">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/clickhouse-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/clickhouse-light.svg" width="44" height="44" alt="ClickHouse">
+        </picture>
+        <br><sub><b>ClickHouse</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/surrealdb">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/surrealdb-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/surrealdb-light.svg" width="44" height="44" alt="SurrealDB">
+        </picture>
+        <br><sub><b>SurrealDB</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/meilisearch">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/meilisearch-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/meilisearch-light.svg" width="44" height="44" alt="Meilisearch">
+        </picture>
+        <br><sub><b>Meilisearch</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/qdrant">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/qdrant-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/qdrant-light.svg" width="44" height="44" alt="Qdrant">
+        </picture>
+        <br><sub><b>Qdrant</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/weaviate">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/weaviate-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/weaviate-light.svg" width="44" height="44" alt="Weaviate">
+        </picture>
+        <br><sub><b>Weaviate</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/questdb">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/questdb-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/questdb-light.svg" width="44" height="44" alt="QuestDB">
+        </picture>
+        <br><sub><b>QuestDB</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/influxdb">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/influxdb-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/influxdb-light.svg" width="44" height="44" alt="InfluxDB">
+        </picture>
+        <br><sub><b>InfluxDB</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/typedb">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/typedb-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/typedb-light.svg" width="44" height="44" alt="TypeDB">
+        </picture>
+        <br><sub><b>TypeDB</b></sub>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://layerbase.com/db/tigerbeetle">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/tigerbeetle-dark.svg">
+          <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/engines/tigerbeetle-light.svg" width="44" height="44" alt="TigerBeetle">
+        </picture>
+        <br><sub><b>TigerBeetle</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<div align="center">
+  <sub>Every engine ships as prebuilt native binaries for macOS (ARM & Intel), Linux (x64 & ARM), and Windows — <a href="https://github.com/robertjbass/spindb#supported-engines--platforms">101+ engine/platform combinations</a>.</sub>
+</div>
+
+## 🔓 Open source
+
+The Layerbase platform is built in the open. These are the pieces you can read, fork, and run today:
+
+| Repository | What it does |
+|---|---|
+| [**spindb**](https://github.com/robertjbass/spindb) | One CLI for all your local databases — a package manager, unified API, and native client tooling for 21 engines. Replaces Docker, DBngin, and Postgres.app for local development. |
+| [**hostdb**](https://github.com/robertjbass/hostdb) | Prebuilt, platform-specific database binaries as npm packages. The distribution layer that makes `spindb create` instant. |
+| [**pgsqlite**](https://github.com/Layerbase-LLC/pgsqlite) | A PostgreSQL wire-protocol adapter for SQLite — point any Postgres client at a SQLite file. |
+| [**layerbase-cli**](https://github.com/Layerbase-LLC/layerbase-cli) | Securely connect to your managed Layerbase databases without ever exposing the connection string. |
+| [**secrets-js**](https://github.com/Layerbase-LLC/secrets-js) | TypeScript SDK for the Layerbase secret store — fetch and decrypt project/environment secrets. Published as `@layerbase/secrets`. |
+| [**layerbase-app-starter**](https://github.com/Layerbase-LLC/layerbase-app-starter) | The Layerbase hosted-app contract as two runnable examples (Node + Vite, Next.js) — fork one and grow it into a real hosted app. |
+| [**layerbase-deno-mtls**](https://github.com/Layerbase-LLC/layerbase-deno-mtls) | Direct-TLS Postgres client for Deno with client-certificate (mTLS) support and connection pooling. |
+
+## 🧭 Where to next?
+
+<div align="center">
+
+<a href="https://layerbase.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/brand/icon-dark.svg">
+    <img src="https://raw.githubusercontent.com/Layerbase-LLC/.github/main/profile/assets/brand/icon-light.svg" alt="Layerbase chameleon" width="56">
+  </picture>
+</a>
+
+**[Create a database in your browser](https://layerbase.com)** — or `npm install -g spindb` and never leave your terminal.
+
+<sub>
+  <a href="https://layerbase.com/desktop">Desktop</a> ·
+  <a href="https://layerbase.com/pricing">Pricing</a> ·
+  <a href="https://layerbase.com/docs">Docs</a> ·
+  <a href="https://layerbase.com/blog">Blog</a> ·
+  <a href="https://layerbase.com/security">Security</a> ·
+  <a href="https://layerbase.com/support">Support</a> ·
+  <a href="https://layerbase.com/status">Status</a>
+</sub>
+
+</div>
